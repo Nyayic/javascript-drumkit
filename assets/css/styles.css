@@ -1,3 +1,6 @@
+body{
+  background-color: #063f41;
+}
 .keys {
     display: flex;
     flex: 1;
@@ -11,10 +14,10 @@
     flex: 1;
     min-height: 200px;
     margin: 0 ;
-    border: .4rem solid black;
+    border: .4rem solid #0f777a;
     border-radius: .5rem;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: center;
     background: white;
     transition: all .07s ease;
@@ -32,8 +35,8 @@
   
   .key.playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #61d9dd;
+    box-shadow: 0 0 2rem #61d9dd;
   }
   
   .sound.playing {
