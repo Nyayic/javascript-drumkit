@@ -1,0 +1,43 @@
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+    margin: 0 ;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: white;
+    transition: all .07s ease;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.2);
+  }
+  
+  .sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: .5rem;
+    opacity: 0;
+    transition: opacity .07s ease;
+  }
+  
+  .key.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  .sound.playing {
+    opacity: 1;
+  }
+  
+  
